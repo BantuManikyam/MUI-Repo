@@ -14,6 +14,8 @@ function Header() {
         <Button color="inherit">Corporate Partners</Button>
         <Button color="inherit">Insights</Button>
         <Button color="inherit">Investor Portal</Button>
+        <Button color="inherit">Logout</Button>
+
       </Toolbar>
     </AppBar>
   );

@@ -43,6 +43,12 @@ const Sidebar = () => {
             <ContactMailIcon sx={{ color: "white" }} />
           </ListItemIcon>
           <ListItemText primary="Contact" />
+          </ListItem>
+          <ListItem button>
+          <ListItemIcon>
+            <ContactMailIcon sx={{ color: "white" }} />
+          </ListItemIcon>
+          <ListItemText primary="Nearby" />
         </ListItem>
       </List>
     </Box>

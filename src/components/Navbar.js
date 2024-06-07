@@ -15,6 +15,7 @@ const Navbar = () => {
       <Button color="inherit">About</Button>
       <Button color="inherit">Services</Button>
       <Button color="inherit">Contact</Button>
+      <Button color="inherit">Nearby</Button>
     </Box>
   );
 };

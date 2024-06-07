@@ -6,13 +6,15 @@ import FeaturedCompanies from "./components/FeaturedCompanies";
 import Pagination from "./components/Pagination";
 import { Grid, Box } from "@mui/material";
 
+
+
 function App() {
   return (
     <div className="App">
       <Header />
       <Sidebar />
       <Box sx={{ marginLeft: "240px", padding: 3 }}>
-        <Grid container spacing={2}>
+        <Grid container spacing={2}>        
           <Grid item xs={12}>
             <MainContent />
           </Grid>

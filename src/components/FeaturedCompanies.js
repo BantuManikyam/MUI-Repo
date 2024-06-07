@@ -2,10 +2,13 @@ import React from "react";
 import { Grid, Paper, Typography, Box } from "@mui/material";
 
 const companies = [
-  { name: "Aurora Solar", logo: require("../images/aurora.png") },
-  { name: "NYSE: BLND", logo: require("../images/blend.png") },
-  { name: "NYSE: DOMA", logo: require("../images/doma.png") },
-  { name: "Flyhomes", logo: require("../images/flyhomes.png") },
+  { name: "Infosys", logo: require("../images/infosys.png")},
+  { name: "Wipro", logo: require("../images/wipro.png")},
+  { name: "JPMorgan", logo: require("../images/jp morgan.png")},
+  { name: "Mahindra", logo: require("../images/Mahindra.png")},
+  { name: "Tata", logo: require("../images/Tata.png")},
+  { name: "Accenture", logo: require("../images/Accenture.png")},
+
 ];
 
 const FeaturedCompanies = () => {
